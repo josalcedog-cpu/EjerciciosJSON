@@ -1,0 +1,37 @@
+{
+    "lrcastillomora": {
+        "nombres": "Laura Regina",
+        "apellidos": "Castillo Mora",
+        "edad": 22,
+        "colombiano": true,
+        "deportes": ["Natación", "Atletismo", "Yoga"]
+    },
+    "jpmendezrios": {
+        "nombres": "Julian Pablo",
+        "apellidos": "Mendez Rios",
+        "edad": 31,
+        "colombiano": false,
+        "deportes": ["Ciclismo", "Escalada", "Baloncesto"]
+    },
+    "amvillalobossoto": {
+        "nombres": "Angela Maria",
+        "apellidos": "Villalobos Soto",
+        "edad": 28,
+        "colombiano": true,
+        "deportes": ["Voleibol", "Futbol", "Natación"]
+    },
+    "crrojaspena": {
+        "nombres": "Camilo Rafael",
+        "apellidos": "Rojas Peña",
+        "edad": 35,
+        "colombiano": true,
+        "deportes": ["Tenis", "Ciclismo", "Ajedrez"]
+    },
+    "sgalindolopez": {
+        "nombres": "Sara Gabriela",
+        "apellidos": "Galindo Lopez",
+        "edad": 19,
+        "colombiano": false,
+        "deportes": ["Patinaje", "Gimnasia", "Caminata"]
+    }
+}
