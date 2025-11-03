@@ -10,7 +10,7 @@ def uno():
     d=input("Inserta un deporte: ")
     for p in data.values():
         if d in p["deportes"]: 
-            print(f"Nombre:{p["nombres"]}\nApellidos:{p["apellidos"]} ")
+            print(f"==>Nombre:{p["nombres"]}\n==>Apellidos:{p["apellidos"]} ")
 
 def dos(): 
     b0 = int(input("Inserta una edad minima: "))
@@ -18,7 +18,7 @@ def dos():
     for p in data.values():
         n = p["edad"]
         if b0 <= n <= b1:
-            print(f"Nombre:{p["nombres"]}\nApellidos:{p["apellidos"]} ")
+            print(f"==>Nombre:{p["nombres"]}\n==>Apellidos:{p["apellidos"]}\n==>Edad:{p["edad"]} ")
 def main(): 
     while True:
         x = input("Usuario desea realizar la busqueda por deportes o por edad?:\t")
