@@ -13,8 +13,8 @@ def uno():
             print(f"Nombre:{p["nombres"]}\nApellidos:{p["apellidos"]} ")
 
 def dos(): 
-    b0 = input("Inserta una edad minima: ")
-    b1 = input("Inserta una edad máxima: ")
+    b0 = int(input("Inserta una edad minima: "))
+    b1 = int(input("Inserta una edad máxima: "))
     for p in data.values():
         n = p["edad"]
         if b0 <= n <= b1:
